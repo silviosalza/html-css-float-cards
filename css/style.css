@@ -8,8 +8,11 @@
 
 /* general */
 body{
+    
     font-family: 'Fredoka One', cursive;
+    
 }
+
 /* /general */
 
 /* header layout */
@@ -29,38 +32,62 @@ header{
 .paragraph{
     margin-top: 3rem;
 }
+/* /header layout */
+
+/* typography */
+
+.bio{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: rgb(100, 188, 255);
+}
 .title{
     color: rgb(246, 45, 112);
 }
-/* /presentation layout */
+/* /colors */
 
+
+/* float images */
 img{
-    
+
     float: left;
     width: 100px;
+    margin-right: 10px;
+    
 }
-
-
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+/* /float images */
+
 
 /* cards layout */
-.row{border: solid rgb(246, 45, 112);
 
-}
 .col {
-    
+
     height:100px ;
     width: calc(100% / 3 - 20px);
-    text-align: center;
-    background-color: rgb(47, 47, 106);
+    text-align: left;
+    background-color: rgb(15, 15, 52);
     color: white;
     display: inline-block;
+    margin: 5rem 0.5rem 3rem 0;
     
 }
+
+.col2{height:100px ;
+    width: calc(100% / 3 - 20px);
+    text-align: left;
+    background-color: rgb(15, 15, 52);
+    color: white;
+    display: inline-block;
+    margin: 0 0.5rem 5rem 0;
+
+}
+
 
 
 
