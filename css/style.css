@@ -15,7 +15,7 @@ body{
 
 /* /general */
 
-/* header layout */
+/* container layout */
 main{
     width: 80%;
     max-width: 1200px;
@@ -27,12 +27,12 @@ header{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem 3rem;
+    padding: 2.5rem 0;
 }
 .paragraph{
     margin-top: 3rem;
 }
-/* /header layout */
+/* /container layout */
 
 /* typography */
 
@@ -74,7 +74,7 @@ img{
     background-color: rgb(15, 15, 52);
     color: white;
     display: inline-block;
-    margin: 5rem 0.5rem 3rem 0;
+    margin: 0 0.5rem 3rem 0;
     
 }
 
@@ -84,7 +84,7 @@ img{
     background-color: rgb(15, 15, 52);
     color: white;
     display: inline-block;
-    margin: 0 0.5rem 5rem 0;
+    margin: 0 0.5rem 0 0;
 
 }
 
