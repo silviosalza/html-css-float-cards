@@ -1,0 +1,30 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* /reset */
+
+/* general */
+body{
+    font-family: 'Fredoka One', cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* /general */
+
+/* presentation layout */
+.container{
+    width: 80%;
+    text-align: center;
+    margin: 3rem 0;
+}
+.paragraph{
+    margin-top: 3rem;
+}
+.title{
+    color: rgb(246, 45, 112);
+}
+/* /presentation layout */
