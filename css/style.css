@@ -9,17 +9,22 @@
 /* general */
 body{
     font-family: 'Fredoka One', cursive;
-    max-width: 1200px;
-    margin: 0 auto;
-
 }
 /* /general */
 
-/* presentation layout */
-.container{
+/* header layout */
+main{
     width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
-    margin: 3rem 0;
+}
+header{
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 3rem;
 }
 .paragraph{
     margin-top: 3rem;
@@ -28,3 +33,36 @@ body{
     color: rgb(246, 45, 112);
 }
 /* /presentation layout */
+
+img{
+    
+    float: left;
+    width: 100px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* cards layout */
+.row{border: solid rgb(246, 45, 112);
+
+}
+.col {
+    
+    height:100px ;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    background-color: rgb(47, 47, 106);
+    color: white;
+    display: inline-block;
+    
+}
+
+
+
+
+
