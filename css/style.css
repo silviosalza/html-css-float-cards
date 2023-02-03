@@ -74,7 +74,8 @@ img{
     background-color: rgb(15, 15, 52);
     color: white;
     float: left;
-    margin: 0 20px;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(15, 15, 52);
 
 }
 
@@ -84,7 +85,8 @@ img{
     background-color: rgb(15, 15, 52);
     color: white;
     float: left;
-    margin: 10px 20px;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(15, 15, 52);
 }
 
 .row img{
