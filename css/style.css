@@ -8,9 +8,9 @@
 
 /* general */
 body{
-    
+
     font-family: 'Fredoka One', cursive;
-    
+
 }
 
 /* /general */
@@ -50,11 +50,9 @@ a{
 
 /* float images */
 img{
-
-    float: left;
-    width: 100px;
+    max-width: 100%;
     margin-right: 10px;
-    
+
 }
 .clearfix::after{
     content: "";
@@ -66,27 +64,34 @@ img{
 
 /* cards layout */
 
+
+
 .col {
 
     height:100px ;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
     text-align: left;
     background-color: rgb(15, 15, 52);
     color: white;
-    display: inline-block;
-    margin: 0 0.5rem 3rem 0;
-    
+    float: left;
+    margin: 0 20px;
+
 }
 
 .col2{height:100px ;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
     text-align: left;
     background-color: rgb(15, 15, 52);
     color: white;
-    display: inline-block;
-    margin: 0 0.5rem 0 0;
-
+    float: left;
+    margin: 10px 20px;
 }
+
+.row img{
+    width: 100px;
+    float: left;
+}
+
 
 
 
